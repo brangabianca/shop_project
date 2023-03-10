@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+.footer_container{
+    display: flex;
+    background-color: gray;
+    height: 18vh;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    
+}
+.footer_left{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+.footer_left_links{
+    display: flex;
+}
+
+.footer_container a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.footer_left_links p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#footer_company_name{
+    color: rgb(35, 43, 43);
+    font-size: 16px;
+    font-family: 'Tilt Neon', cursive;
+    margin-top: -10px;
+}
+
