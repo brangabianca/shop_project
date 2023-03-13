@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    
+    font-family: 'Tilt Neon', cursive;
+        
+}
+.product_card{
+    display: flex;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.product_image{
+    height: 380px;
+}
+
+.product_cardbody{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.product_button{
+    height: 40px;
+    width: 140px;
+    align-self: flex-end;
+     
+}
+
+p{
+    color: darkslategray;
+   font-size: 22px;
+}
+
+h5{
+    color: gray;
+}
