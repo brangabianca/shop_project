@@ -1,0 +1,39 @@
+.wishlist_container{
+    flex-direction: column;
+}
+
+.wishlist_image{
+    height: 70px;
+    width: 110px ;
+}
+
+.wishlist_image_background{
+    width: 100vw;
+    height: 60vh;
+    
+    
+}
+
+.wishlist_title{
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 45vw;
+    color: black
+  
+}
+
+.link_home_wishlist{
+    color: black;
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 44vw;
+    text-decoration: none;
+}
+
+.link_produse_wishlist{
+    color: black;
+        position: absolute;
+        margin-top: 40vh;
+        margin-left: 48vw;
+        text-decoration: none;
+}

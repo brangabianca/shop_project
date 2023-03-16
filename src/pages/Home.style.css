@@ -1,0 +1,25 @@
+.home_carousel{
+    margin-left: 6vw;
+   
+}
+
+
+.link_home_products{
+    position: absolute;
+    margin-top: 51.5vh;
+    margin-left: 42.5vw;
+    background-color:#627B7D;
+    border-radius: 30%;
+    text-decoration: none;
+    color:white;
+    border: #627B7D solid 3px;
+    border-left:#627B7D solid 7px ;
+    border-right: #627B7D solid 7px;
+    
+}
+
+.home_item_image{
+    height: 400px;
+    width: 1200px;
+}
+
