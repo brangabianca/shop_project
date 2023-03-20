@@ -38,7 +38,7 @@ function Wishlist() {
 				/>
 			</div>
 
-			<Table bordered>
+			<Table className='wishlist_table' bordered>
 				<thead>
 					<tr>
 						<th></th>

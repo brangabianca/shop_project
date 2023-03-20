@@ -1,9 +1,13 @@
 .category_list{
     width: 20vw;
-    background-color: pink;
+    /* background-color: pink; */
 }
 .product_list{
     width: 80vw;
     
+}
+
+h4{
+    text-align: center;
 }
 

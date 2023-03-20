@@ -1,0 +1,12 @@
+.components_container h3{
+    background-color: lightgray; 
+    text-align: center;
+    
+}
+
+.buton_categorii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

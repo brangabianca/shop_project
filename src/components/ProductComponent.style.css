@@ -8,9 +8,10 @@
 .product_card{
     display: flex;
 }
-/* img:hover{
+
+.product_card img:hover{
     transform: scale(1.1);
-} */
+}
 
 .product_image{
     height: 380px;

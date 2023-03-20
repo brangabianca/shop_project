@@ -10,6 +10,7 @@
 .wishlist_image_background{
     width: 100vw;
     height: 60vh;
+    padding: 10px 40px 0px 40px;
     
     
 }
@@ -36,4 +37,8 @@
         margin-top: 40vh;
         margin-left: 48vw;
         text-decoration: none;
+}
+
+.wishlist_table{
+    margin: 40px;
 }

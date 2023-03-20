@@ -1,0 +1,19 @@
+.trending_container img{
+    width: 200px;
+    height: 200px;
+    display: flex;
+   
+}
+
+.trending_products_container{
+    padding: 40px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+.trending_card img{
+    align-self: center;
+}

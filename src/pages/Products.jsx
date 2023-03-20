@@ -25,14 +25,16 @@ function Products() {
 			{productList && categoryList ? (
 				<div className='d-flex'>
 					<div className='category_list m-4 d-flex flex-column'>
-						<h2>Product Categories</h2>
+						<h4>Product Categories</h4>
 						{categoryList.map((category, index) => {
 							return (
 								<Badge
-									pill
-									className='mt-2'
+									// pill
+									className='mt-1'
 									key={"category_" + index}
-									color={category === selectedCategory ? "info" : "secondary"}
+									color={
+										category === selectedCategory ? "warning" : "secondary"
+									}
 									onClick={() => {
 										setSelectedCategory(category);
 									}}>

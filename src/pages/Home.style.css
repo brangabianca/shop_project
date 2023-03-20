@@ -1,13 +1,7 @@
-.home_carousel{
-    margin-left: 6vw;
-   
-}
-
 
 .link_home_products{
     position: absolute;
-    margin-top: 51.5vh;
-    margin-left: 42.5vw;
+    top: 30.2em;
     background-color:#627B7D;
     border-radius: 30%;
     text-decoration: none;
@@ -15,11 +9,45 @@
     border: #627B7D solid 3px;
     border-left:#627B7D solid 7px ;
     border-right: #627B7D solid 7px;
-    
+    font-size: 13px;  
+}
+
+
+.image_home_container{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    position: relative;
 }
 
 .home_item_image{
-    height: 400px;
-    width: 1200px;
+    height: 450px;
+    width: 100vw;
+    padding: 10px 40px 0px 40px;
 }
+
+.carousel_container{
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.components_container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+.components_container img{
+    width: 280px;
+    height: 300px;
+}
+
+html, body{
+    max-width: 100%;
+    /* overflow-x: hidden; */
+}
+
+
 
