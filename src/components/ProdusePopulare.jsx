@@ -16,11 +16,11 @@ function ProdusePopulare() {
 			<div className='trending_products_container'>
 				<h1>Trending Products</h1>
 				<h5>These are the products most loved by our customers</h5>
-				<Row xs='4'>
+				<Row className='row_container' xs='4'>
 					{produsePopulare.map((produs, index) => {
 						return (
 							<div className=' trending_container'>
-								<Col className=' mt-4'>
+								<Col className='card_container mt-4'>
 									<Card className='trending_card'>
 										<img alt='sample' src={produs.image} />
 										<CardBody>

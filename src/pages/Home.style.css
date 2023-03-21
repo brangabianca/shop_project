@@ -1,4 +1,26 @@
 
+@media(max-width:844px){
+
+    .components_container{
+        flex-direction: column;
+        align-items: center;
+    
+        
+    }
+   .row_container{
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .carousel_container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+  
+   
+}
+
 .link_home_products{
     position: absolute;
     top: 30.2em;
@@ -31,6 +53,8 @@
     position: relative;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    
 }
 
 .components_container{
@@ -53,5 +77,8 @@ html, body{
     padding-top: 10vh;
 }
 
+.trending_products_container{
+    width: 100%;
+}
 
 

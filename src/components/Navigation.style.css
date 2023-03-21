@@ -1,12 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
+@media(max-width:844px) {
+   
+.navbar_left{
+    align-items: flex-end;
+    padding-left: 20%;
+    
+}
+
+.navbar_right{
+    align-items: flex-end;
+    padding-right: 20%;
+}
+.navbar_middle{
+    position: relative;
+}
+}
 
 .navbar_container{
     display: flex;
     justify-content: space-between;
     background-color: transparent;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
     border-top: solid black 3px;
     position: absolute;
 }

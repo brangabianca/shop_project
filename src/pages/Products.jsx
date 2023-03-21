@@ -23,7 +23,7 @@ function Products() {
 	return (
 		<>
 			{productList && categoryList ? (
-				<div className='d-flex'>
+				<div className='products_big_container d-flex'>
 					<div className='category_list m-4 d-flex flex-column'>
 						<h4>Product Categories</h4>
 						{categoryList.map((category, index) => {
@@ -54,14 +54,14 @@ function Products() {
 					</div>
 					<div className='product_list'>
 						<Input
-							className='mt-4 w-25'
+							className='input mt-4 w-25'
 							placeholder='Search'
 							value={searchText}
 							onChange={(e) => {
 								setSearchText(e.target.value);
 							}}
 						/>
-						<Row xs='3'>
+						<Row className='products_table' xs='3'>
 							{productList
 								.filter((product) => {
 									return (
