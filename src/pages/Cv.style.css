@@ -1,0 +1,29 @@
+/* body{
+    background-color:#B9AFAA;
+} */
+.cv_container{
+    width: 100vw;
+    height: 72vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B9AFAA;
+}
+
+.cv_description_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+
+.cv_container p{
+    font-size: 15px;
+    text-align:center;
+}
+
+.cv_container span{
+    color: #4F4845;
+}
+
