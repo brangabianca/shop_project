@@ -49,5 +49,9 @@ html, body{
     /* overflow-x: hidden; */
 }
 
+.home_container{
+    padding-top: 10vh;
+}
+
 
 

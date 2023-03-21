@@ -24,7 +24,7 @@ function Wishlist() {
 
 	return (
 		<>
-			<div className='d-flex'>
+			<div className='wishlist_firs_container d-flex'>
 				<h3 className='wishlist_title'>Wishlist</h3>
 				<Link className='link_home_wishlist' to='/home'>
 					Home
@@ -70,17 +70,6 @@ function Wishlist() {
 					);
 				})}
 			</Table>
-
-			{/* <ul className='wishlist_container d-flex'>
-				{wishlistProducts.map((product, index) => {
-					return (
-						<div className='d-flex' key={"product_" + index}>
-							<li className='mt-2'>{product.title}</li>
-							<img className='wishlist_image' src={product.image} />
-						</div>
-					);
-				})}
-			</ul> */}
 		</>
 	);
 }

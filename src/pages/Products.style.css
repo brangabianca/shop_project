@@ -1,9 +1,10 @@
 .category_list{
     width: 20vw;
-    /* background-color: pink; */
+    padding-top: 10vh;
 }
 .product_list{
     width: 80vw;
+    padding-top: 10vh;
     
 }
 

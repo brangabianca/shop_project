@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
+
 .navbar_container{
     display: flex;
     justify-content: space-between;
-    /* background-color: lightblue; */
+    background-color: transparent;
     height: 10vh;
     width: 100vw;
     border-top: solid black 3px;
+    position: absolute;
 }
 
 #navbar_logo{
