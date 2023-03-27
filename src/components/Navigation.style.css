@@ -13,8 +13,11 @@
     padding-right: 20%;
 }
 .navbar_middle{
-    position: relative;
+    align-self: flex-start;
+    /* position: relative; */
 }
+
+
 }
 
 .navbar_container{
