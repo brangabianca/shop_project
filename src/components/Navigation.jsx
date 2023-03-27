@@ -5,7 +5,7 @@ import React, { useState } from "react";
 function Navigation() {
 	return (
 		<div className='navbar_container'>
-			<div className='navbar_left ms-4'>
+			<div className='navbar_left'>
 				<Link className='link_home mt-3 me-3' to='/home'>
 					Home
 				</Link>
@@ -14,11 +14,11 @@ function Navigation() {
 				</Link>
 			</div>
 			<div className='navbar_middle'>
-				<Link to='/'>
+				<Link className='navbar_image' to='/'>
 					<img id='navbar_logo' src='logo.png' alt='logo' />
 				</Link>
 			</div>
-			<div className='navbar_right me-4'>
+			<div className='navbar_right'>
 				<Link className='link_wishlist mt-3' to='/wishlist'>
 					Wishlist
 				</Link>

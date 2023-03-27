@@ -19,7 +19,9 @@ function Cv() {
 					</p>
 					<Button>Download CV</Button>
 				</div>
-				<img id='cv_photo' src='cvphoto.png' alt='cvphoto' />
+				<div className='image_container'>
+					<img id='cv_photo' src='cvphoto.png' alt='cvphoto' />
+				</div>
 			</div>
 		</div>
 	);

@@ -33,7 +33,6 @@ function ProdusePopulare() {
 						);
 					})}
 				</Row>
-				{/* <h1>{produsePopulare.name}</h1> */}
 			</div>
 		</>
 	);

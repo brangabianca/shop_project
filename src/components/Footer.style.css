@@ -8,6 +8,7 @@
     width: 100vw;
     position: relative;
     bottom: 0;
+    justify-content: space-between;
     
 }
 .footer_left{
@@ -37,4 +38,14 @@
     font-family: 'Tilt Neon', cursive;
     margin-top: -10px;
 }
+
+.footer_right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+
 
