@@ -1,3 +1,4 @@
+
 .wishlist_container{
     flex-direction: column;
 }
@@ -18,7 +19,7 @@
 .wishlist_title{
     position: absolute;
     margin-top: 35vh;
-    margin-left: 45vw;
+    margin-left: 6vw;
     color: black
   
 }
@@ -27,22 +28,27 @@
     color: black;
     position: absolute;
     margin-top: 40vh;
-    margin-left: 44vw;
     text-decoration: none;
 }
 
 .link_produse_wishlist{
     color: black;
-        position: absolute;
-        margin-top: 40vh;
-        margin-left: 48vw;
-        text-decoration: none;
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 10vw;
+    text-decoration: none;
 }
 
-.wishlist_table{
-    margin: 40px;
+.wishlist_table_container{
+    
+    width: 100vw;
+    
+    
+   
 }
 
-.wishlist_firs_container{
-    padding-top: 10vh;
+.wishlist_first_container{
+   padding-top: 10vh;
+   display: flex;
+   justify-content: center;
 }

@@ -19,17 +19,15 @@ function ProdusePopulare() {
 				<Row className='row_container' xs='4'>
 					{produsePopulare.map((produs, index) => {
 						return (
-							<div className=' trending_container' key={"trending_" + index}>
-								<Col className='card_container mt-4'>
-									<Card className='trending_card'>
-										<img alt='sample' src={produs.image} />
-										<CardBody>
-											<CardTitle>{produs.title}</CardTitle>
-											<p>{produs.price}$</p>
-										</CardBody>
-									</Card>
-								</Col>
-							</div>
+							<Col className='card_container mt-4'>
+								<Card className='trending_card'>
+									<img alt='sample' src={produs.image} />
+									<CardBody>
+										<CardTitle>{produs.title}</CardTitle>
+										<p>{produs.price}$</p>
+									</CardBody>
+								</Card>
+							</Col>
 						);
 					})}
 				</Row>

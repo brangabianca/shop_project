@@ -9,7 +9,10 @@
     }
    .row_container{
     flex-direction: column;
-    align-items: center;
+    align-content: center;
+    width: 100vw;
+    /* padding-right: 50%; */
+
    }
 
    .carousel_container{
@@ -18,12 +21,33 @@
     align-items: center;
   }
 
-  .trending_container{
-    width: 50%;
-  }
-
  
+.trending_container{
+    display: flex;
+    border: black solid 10px;
+    width: 50px;
    
+}
+
+  h5{
+    text-align: center;
+    
+   
+}
+
+h1{
+    text-align: center;
+    
+}
+
+.trending_card{
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
 }
 
 .link_home_products{

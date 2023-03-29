@@ -23,54 +23,59 @@ function Wishlist() {
 	};
 
 	return (
-		<>
-			<div className='wishlist_firs_container d-flex'>
+		<div className='test'>
+			<div className='wishlist_first_container d-flex'>
 				<h3 className='wishlist_title'>Wishlist</h3>
+
 				<Link className='link_home_wishlist' to='/home'>
 					Home
 				</Link>
+
 				<Link className='link_produse_wishlist' to='/products'>
 					/ Produse
 				</Link>
+
 				<img
 					className='wishlist_image_background'
 					src='https://images.unsplash.com/photo-1511025998370-7d59f82e9c8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=853&q=80'
 				/>
 			</div>
 
-			<Table className='wishlist_table' bordered>
-				<thead>
-					<tr>
-						<th></th>
-						<th></th>
-						<th>Product Name</th>
-						<th>Unit Price</th>
-						<th>Remove</th>
-					</tr>
-				</thead>
-				{wishlistProducts.map((product, index) => {
-					return (
-						<tbody key={"product_" + index}>
-							<tr>
-								<th></th>
-								<img className='wishlist_image' src={product.image} />
-								<td>{product.title}</td>
-								<td>{product.price}</td>
-								<td>
-									<Button
-										color='danger'
-										onClick={() => {
-											onDelete(product.id);
-										}}>
-										Delete
-									</Button>
-								</td>
-							</tr>
-						</tbody>
-					);
-				})}
-			</Table>
-		</>
+			<div className='wishlist_table_container'>
+				<Table className='wishlist_table' bordered>
+					<thead>
+						<tr>
+							<th></th>
+							<th></th>
+							<th>Product Name</th>
+							<th>Unit Price</th>
+							<th>Remove</th>
+						</tr>
+					</thead>
+					{wishlistProducts.map((product, index) => {
+						return (
+							<tbody key={"product_" + index}>
+								<tr>
+									<th></th>
+									<img className='wishlist_image' src={product.image} />
+									<td>{product.title}</td>
+									<td>{product.price}</td>
+									<td>
+										<Button
+											color='danger'
+											onClick={() => {
+												onDelete(product.id);
+											}}>
+											Delete
+										</Button>
+									</td>
+								</tr>
+							</tbody>
+						);
+					})}
+				</Table>
+			</div>
+		</div>
 	);
 }
 export default Wishlist;

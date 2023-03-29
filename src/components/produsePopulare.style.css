@@ -1,9 +1,12 @@
-.trending_container img{
+
+.trending_card img{
     width: 200px;
     height: 200px;
     display: flex;
    
 }
+
+
 
 .trending_products_container{
     padding: 40px;
@@ -11,6 +14,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 100%;
+    
 }
 
 
