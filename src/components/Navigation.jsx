@@ -15,7 +15,11 @@ function Navigation() {
 			</div>
 			<div className='navbar_middle'>
 				<Link className='navbar_image' to='/'>
-					<img id='navbar_logo' src='/logo.png' alt='logo' />
+					<img
+						id='navbar_logo'
+						src='https://raw.githubusercontent.com/brangabianca/shop_project/main/logo.png'
+						alt='logo'
+					/>
 				</Link>
 			</div>
 			<div className='navbar_right'>
