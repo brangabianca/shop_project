@@ -20,7 +20,11 @@ function Cv() {
 					<Button>Download CV</Button>
 				</div>
 				<div className='image_container'>
-					<img id='cv_photo' src='cvphoto.png' alt='cvphoto' />
+					<img
+						id='cv_photo'
+						src='https://raw.githubusercontent.com/brangabianca/shop_project/main/cvphoto.png'
+						alt='cvphoto'
+					/>
 				</div>
 			</div>
 		</div>

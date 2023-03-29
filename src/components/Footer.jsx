@@ -20,22 +20,38 @@ function Footer() {
 			<div className='footer_right me-4'>
 				<a href='https://www.facebook.com/bianca.branga'>
 					<button className='fotter_buttons'>
-						<img id='fb_logo' src='fb.png' alt='logo_fb' />
+						<img
+							id='fb_logo'
+							src='https://raw.githubusercontent.com/brangabianca/shop_project/main/fb.png'
+							alt='logo_fb'
+						/>
 					</button>
 				</a>
 				<a href='https://www.instagram.com/brangabianca/?igshid=YmMyMTA2M2Y%3D'>
 					<button className='fotter_buttons'>
-						<img id='instagram_logo' src='instagram.png' alt='logo_instagram' />
+						<img
+							id='instagram_logo'
+							src='https://raw.githubusercontent.com/brangabianca/shop_project/main/instagram.png'
+							alt='logo_instagram'
+						/>
 					</button>
 				</a>
 				<a href='https://www.linkedin.com/in/bianca-branga-348411127'>
 					<button className='fotter_buttons'>
-						<img id='linkedin_logo' src='in.png' alt='logo_linkedin' />
+						<img
+							id='linkedin_logo'
+							src='https://raw.githubusercontent.com/brangabianca/shop_project/main/in.png'
+							alt='logo_linkedin'
+						/>
 					</button>
 				</a>
 				<a href='https://github.com/brangabianca/shop_project.git'>
 					<button id='git_button' className='fotter_buttons'>
-						<img id='git_logo' src='git.png' alt='logo_git' />
+						<img
+							id='git_logo'
+							src='https://raw.githubusercontent.com/brangabianca/shop_project/main/git.png'
+							alt='logo_git'
+						/>
 					</button>
 				</a>
 			</div>
