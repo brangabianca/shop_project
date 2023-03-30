@@ -10,7 +10,7 @@ function Navigation() {
 					Home
 				</Link>
 				<Link className='link_products mt-3' to='/products'>
-					Produse
+					Products
 				</Link>
 			</div>
 			<div className='navbar_middle'>

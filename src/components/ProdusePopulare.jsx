@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Card, CardBody, CardTitle, Col, Row } from "reactstrap";
 import "./produsePopulare.style.css";
 
 function ProdusePopulare() {
@@ -16,21 +15,18 @@ function ProdusePopulare() {
 			<div className='trending_products_container'>
 				<h1>Trending Products</h1>
 				<h5>These are the products most loved by our customers</h5>
-				<Row className='row_container' xs='4'>
+
+				<div className='trending_cards_container'>
 					{produsePopulare.map((produs, index) => {
 						return (
-							<Col className='card_container mt-4'>
-								<Card className='trending_card'>
-									<img alt='sample' src={produs.image} />
-									<CardBody>
-										<CardTitle>{produs.title}</CardTitle>
-										<p>{produs.price}$</p>
-									</CardBody>
-								</Card>
-							</Col>
+							<div className='trending_card'>
+								<img alt='sample' src={produs.image} />
+								<h5>{produs.title}</h5>
+								<p>{produs.price}$</p>
+							</div>
 						);
 					})}
-				</Row>
+				</div>
 			</div>
 		</>
 	);

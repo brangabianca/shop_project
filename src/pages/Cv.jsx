@@ -13,10 +13,14 @@ function Cv() {
 					</h1>
 					<h5> Junior Front-end Developer</h5>
 					<p>
+						This is my final project from the Front-end Web Developer course
+						held at <span id='it_school'>IT School Timisoara</span>
+					</p>
+					{/* <p>
 						I design and develop experiences that make people's lives simple
 						through Web and Mobile apps. I work with HTML5, CSS3, JavaScript and
 						React.
-					</p>
+					</p> */}
 					<Button>Download CV</Button>
 				</div>
 				<div className='image_container'>

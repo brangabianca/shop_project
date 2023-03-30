@@ -1,3 +1,10 @@
+@media(max-width:844px) {
+
+    .componenta2, .componenta3{
+        padding-top: 40px;
+    }
+}
+
 .components_container h3{
     background-color: lightgray; 
     text-align: center;

@@ -18,9 +18,17 @@
         align-items: center;
     }
 
+    .category_list{
+        padding-top: 15vh;
+    }
+
+    .category_list h3{
+        align-self: center;
+    }
         
 }
 
+@media(min-width:845px){
 .category_list{
     width: 20vw;
     padding-top: 10vh;
@@ -33,5 +41,6 @@
 
 h4{
     text-align: center;
+}
 }
 
