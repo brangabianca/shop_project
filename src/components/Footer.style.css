@@ -51,6 +51,9 @@
     border: none;
 }
 
+.footer_container a:hover {
+    color: #4F4845;
+}
 
 
 
