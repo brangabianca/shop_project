@@ -16,9 +16,18 @@
     width: 100%;
     padding-top: 10vh;
 
-
 }
 
+#cv_photo{
+    object-fit: cover;
+}
+
+.image_container{
+    display: flex;
+    width: 20em;
+    height: 50%;
+    object-fit: cover;
+}
 }
 
 @media(min-width:845px){
@@ -31,6 +40,14 @@
             width: 100%;
     
     
+        }
+
+    .image_container {
+             display: flex;
+             width: 40%;
+             height: 100%;
+             object-fit: cover;
+        
         }
 }
 
@@ -55,12 +72,7 @@
 
 }
 
-.image_container{
-    display: flex;
-    width: 40%;
-    height: 100%;
-   
-}
+
 
 .cv_container img{
 width: 100%;
