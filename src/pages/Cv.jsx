@@ -21,7 +21,7 @@ function Cv() {
 						through Web and Mobile apps. I work with HTML5, CSS3, JavaScript and
 						React.
 					</p> */}
-					<Button>Download CV</Button>
+					{/* <Button>Download CV</Button> */}
 				</div>
 				<div className='image_container'>
 					<img
