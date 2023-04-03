@@ -24,7 +24,7 @@
 
 .image_container{
     display: flex;
-    width: 20em;
+    width: 18em;
     height: 50%;
     object-fit: cover;
 }
